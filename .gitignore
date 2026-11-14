@@ -10,15 +10,15 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+.output
+.vinxi
+.tanstack/**
+.nitro
 *.local
 
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Generated PWA icons (recreated by scripts/generate-icons.mjs on predev/prebuild)
-public/icons/
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
 
 # Editor directories and files
 .vscode/*
